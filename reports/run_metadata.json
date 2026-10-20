@@ -1,0 +1,54 @@
+{
+  "config": {
+    "dataset_url": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+    "split_seed": 42,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.15,
+    "max_char_length": 256,
+    "embedding_dim": 16,
+    "filters_per_kernel": 24,
+    "kernel_sizes": [
+      3,
+      5
+    ],
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 10,
+    "early_stopping_patience": 2,
+    "seeds": [
+      17,
+      42,
+      73
+    ],
+    "ham_false_positive_target": 0.05,
+    "augmentation_probability": 0.35,
+    "positive_label": "spam"
+  },
+  "total_rows": 5574,
+  "unique_normalized_texts": 5159,
+  "partitions": {
+    "train": {
+      "rows": 3918,
+      "label_counts": {
+        "ham": 3391,
+        "spam": 527
+      }
+    },
+    "validation": {
+      "rows": 828,
+      "label_counts": {
+        "ham": 717,
+        "spam": 111
+      }
+    },
+    "test": {
+      "rows": 828,
+      "label_counts": {
+        "ham": 719,
+        "spam": 109
+      }
+    }
+  }
+}
