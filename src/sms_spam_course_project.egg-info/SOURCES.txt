@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/sms_spam/__init__.py
+src/sms_spam/cli.py
+src/sms_spam/data.py
+src/sms_spam/experiment.py
+src/sms_spam/models.py
+src/sms_spam_course_project.egg-info/PKG-INFO
+src/sms_spam_course_project.egg-info/SOURCES.txt
+src/sms_spam_course_project.egg-info/dependency_links.txt
+src/sms_spam_course_project.egg-info/requires.txt
+src/sms_spam_course_project.egg-info/top_level.txt

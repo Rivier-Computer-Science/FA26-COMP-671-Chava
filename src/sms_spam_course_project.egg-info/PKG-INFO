@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: sms-spam-course-project
+Version: 1.0.0
+Summary: SMS spam text classification experiments for COMP-671
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy<3,>=1.24
+Requires-Dist: pandas<3,>=2.0
+Requires-Dist: scikit-learn<2,>=1.3
+Requires-Dist: torch>=2.0
+Requires-Dist: matplotlib<4,>=3.7
+Dynamic: license-file
