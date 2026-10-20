@@ -1,0 +1,20 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+  "split_seed": 42,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "max_char_length": 256,
+  "embedding_dim": 16,
+  "filters_per_kernel": 24,
+  "kernel_sizes": [3, 5],
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "max_epochs": 10,
+  "early_stopping_patience": 2,
+  "seeds": [17, 42, 73],
+  "ham_false_positive_target": 0.05,
+  "augmentation_probability": 0.35,
+  "positive_label": "spam"
+}
